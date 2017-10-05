@@ -36,8 +36,8 @@ public class SnapInterceptLoader implements IXposedHookLoadPackage {
     private boolean mFrontCameraHasFlash;
     public static ConcurrentHashMap<String, Object> mCacheKeysMap = new ConcurrentHashMap();
 
-    final int VersionCode = 1375;
-    final String ExpectedVersion = "10.18.9.0";
+    final int VersionCode = 1376;
+    final String ExpectedVersion = "10.18.10.0";
     final String SnapEventKlass = "lne";
     final String SnapEventGetCacheKey = "K";
     final String CbcEncryptionAlgorithmKlass = "com.snapchat.android.framework.crypto.CbcEncryptionAlgorithm";
@@ -47,9 +47,9 @@ public class SnapInterceptLoader implements IXposedHookLoadPackage {
     final String SnapEventTimestamp = "t";
     final String SnapEventIsZipped= "am";
     final String MediaCacheEntryKlass = "lrm";
-    final String MediaCacheEntryConstructorFirstParam = "npz";
+    final String MediaCacheEntryConstructorFirstParam = "nqa";
     final String EncryptionAlgorithmInterface = "com.snapchat.android.framework.crypto.EncryptionAlgorithm";
-    final String RootDetectorKlass = "muq";
+    final String RootDetectorKlass = "mur";
     final String RootDetectorFirst = "b";
     final String RootDetectorSecond = "c";
     final String RootDetectorThird = "d";
