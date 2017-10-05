@@ -36,27 +36,27 @@ public class SnapInterceptLoader implements IXposedHookLoadPackage {
     private boolean mFrontCameraHasFlash;
     public static ConcurrentHashMap<String, Object> mCacheKeysMap = new ConcurrentHashMap();
 
-    final int VersionCode = 1173;
-    final String ExpectedVersion = "10.15.0.0";
-    final String SnapEventKlass = "kou";
+    final int VersionCode = 1375;
+    final String ExpectedVersion = "10.18.9.0";
+    final String SnapEventKlass = "lne";
     final String SnapEventGetCacheKey = "K";
     final String CbcEncryptionAlgorithmKlass = "com.snapchat.android.framework.crypto.CbcEncryptionAlgorithm";
     final String CbcEncryptionAlgorithmDecrypt = "b";
-    final String SnapEventIsVideo = "bV_";
-    final String SnapEventUsername = "ak";
+    final String SnapEventIsVideo = "cX_";
+    final String SnapEventUsername = "al";
     final String SnapEventTimestamp = "t";
-    final String SnapEventIsZipped= "al";
-    final String MediaCacheEntryKlass = "ktc";
-    final String MediaCacheEntryConstructorFirstParam = "mjg";
+    final String SnapEventIsZipped= "am";
+    final String MediaCacheEntryKlass = "lrm";
+    final String MediaCacheEntryConstructorFirstParam = "npz";
     final String EncryptionAlgorithmInterface = "com.snapchat.android.framework.crypto.EncryptionAlgorithm";
-    final String RootDetectorKlass = "lps";
+    final String RootDetectorKlass = "muq";
     final String RootDetectorFirst = "b";
     final String RootDetectorSecond = "c";
     final String RootDetectorThird = "d";
     final String RootDetectorForth = "e";
-    final String FlashControllerKlass = "cyl";
+    final String FlashControllerKlass = "der";
     final String FlashControllerSetFlash = "a";
-    final String ScFlashModeKlass = "cxe";
+    final String ScFlashModeKlass = "ddk";
 
 
     class RootDetectorOverrides extends XC_MethodReplacement {
